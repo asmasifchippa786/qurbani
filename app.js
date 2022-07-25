@@ -1,6 +1,6 @@
 // Day 1 of Quurfani 
 
-var Day1 = new Date ("july 10, 2022 06:10:05").getTime();
+var Day1 = new Date ("june 28, 2023 00:0:0").getTime();
 var Z = setInterval(function() {
 var today = new Date().getTime();
 var distance = Day1-today;
@@ -21,7 +21,7 @@ if (distance < 0 ){
 },1000);
 
 
-var Day2 = new Date ("july 11, 2022 06:10:05").getTime();
+var Day2 = new Date ("june 29, 2023 00:0:0").getTime();
 var Y = setInterval(function() {
 var today2 = new Date().getTime();
 var distance2 = Day2-today2;
@@ -42,7 +42,7 @@ if (distance2 < 0 ){
 },1000);
 
 
-var Day3 = new Date ("july 12, 2022 06:10:05").getTime();
+var Day3 = new Date ("june 30, 2023 00:0:0").getTime();
 var X = setInterval(function() {
 var today3 = new Date().getTime();
 var distance3 = Day3-today3;
